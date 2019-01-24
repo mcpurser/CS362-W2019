@@ -737,8 +737,7 @@ int cutpurseCard(struct gameState *state, int currentPlayer, int handPos){
 		}
 	}
 	//discard played card from hand
-	discardCard(handPos, currentPlayer, state, 0);
-
+	discardCard(handPos, currentPlayer, state, 1);
 	return 0;
 }
 
